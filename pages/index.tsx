@@ -6,7 +6,7 @@ import styles from '@/styles/Home.module.css';
 export default function Home() {
   return (
     <>
-      <div className="text-center">
+      <div className="justify-center">
         <div className="flex justify-center">
           <Image src="/flower.svg" alt="flower" width={40} height={40} />
           <h1 className="text-grassgreen text-6xl font-bold mx-4">
@@ -20,12 +20,22 @@ export default function Home() {
           my projects and skills to potential employers. Take a look around and
           feel free to contact me with any questions or opportunities.
         </p>
+        <h1 className="text-grassgreen text-4xl text-center font-bold mx-4">
+          Projects
+        </h1>
+        <h1 className="text-grassgreen text-4xl text-center font-bold mx-4">
+          About Me
+        </h1>
+        <h1 className="text-grassgreen text-4xl text-center font-bold mx-4">
+          Skills
+        </h1>
+        <h1 className="text-grassgreen text-4xl text-center font-bold mx-4">
+          Education
+        </h1>
+        <h1 className="text-grassgreen text-4xl text-center font-bold mx-4">
+          Contact
+        </h1>
       </div>
-      <h1>About Me</h1>
-      <h1>Projects</h1>
-      <h1>Skills</h1>
-      <h1>Education</h1>
-      <h1>Contact</h1>
     </>
   );
 }
