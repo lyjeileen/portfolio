@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Projects from 'components/Projects';
+import Contact from 'components/Contact';
 
 export default function Home() {
   return (
@@ -28,9 +29,7 @@ export default function Home() {
         <h1 className="text-grassgreen text-4xl text-center font-bold mx-4">
           Education
         </h1> */}
-        <h1 className="text-grassgreen text-4xl text-center font-bold mx-4">
-          Contact
-        </h1>
+        <Contact />
       </div>
     </>
   );
