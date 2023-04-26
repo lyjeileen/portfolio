@@ -1,7 +1,5 @@
 import Project from 'components/Project';
 
-import { ProjectItem } from './Project';
-
 const projects = [
   {
     name: 'Kawaii Moment',
