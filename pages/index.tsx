@@ -17,13 +17,6 @@ export default function Home() {
           projects and skills to potential employers. Take a look around and
           feel free to contact me with any questions or opportunities.
         </p>
-        <div className="flex justify-center mt-4">
-          <Image src="/flower2.svg" alt="flower" width={40} height={40} />
-          <h1 className="text-grassgreen text-4xl text-center font-bold mx-4">
-            Projects
-          </h1>
-          <Image src="/flower2.svg" alt="flower" width={40} height={40} />
-        </div>
 
         <Projects />
         {/* <h1 className="text-grassgreen text-4xl text-center font-bold mx-4">
