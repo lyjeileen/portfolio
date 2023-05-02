@@ -18,17 +18,17 @@ export default function Project(props: ProjectProps) {
 
   const tools = project.tools.map((tool, index) => <p key={index}>{tool}</p>);
   return (
-    <>
-      <p className="text-grassgreen text-2xl text-center font-bold mt-12 mb-4">
+    <div className="my-12  border-4 border-softred rounded-2xl">
+      <p className="text-grassgreen text-2xl text-center font-bold my-4 mb-4">
         {project.name}
       </p>
 
-      <div className="group relative aspect-video">
+      <div className="group relative aspect-video m-4">
         <Image
           src={project.image}
           alt={project.name}
           fill
-          className="z-0 group-hover:opacity-0"
+          className="z-0 group-hover:opacity-0 rounded-xl"
         />
         <div>
           <div className="text-grassgreen text-center text-xl z-50">
@@ -51,6 +51,6 @@ export default function Project(props: ProjectProps) {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
