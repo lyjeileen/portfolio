@@ -15,6 +15,7 @@ const projects = [
       'aws-sdk',
       'headless UI',
     ],
+    github: 'https://github.com/lyjeileen/kawaii-moment',
     description:
       'A short video app with the functions of uploading videos/avatars to AWS S3, playing videos, subscription.',
   },
@@ -30,6 +31,7 @@ const projects = [
       'next-auth',
       'Material-UI',
     ],
+    github: 'https://github.com/lyjeileen/twitter-clone',
     description:
       'A twitter clone with basic functions like login, send tweets, comment, view tweets.',
   },
@@ -42,10 +44,11 @@ const projects = [
       'Bootstrap',
       'PostgreSQL',
       'Express',
-      'Beautiful Drag and Drop',
+      'Beautiful D&D',
       'Framer Motion',
       'WebSockets',
     ],
+    github: 'https://github.com/lyjeileen/doable',
     description:
       'A project management app that allows users to manage their projects and tasks easily.',
   },
@@ -60,6 +63,7 @@ const projects = [
       'Bootstrap',
       'Cypress',
     ],
+    github: 'https://github.com/lyjeileen/jungle',
     description:
       'A mini e-commerce application built with Ruby on Rails that allows visitors to view, purchase, and review products.',
   },
