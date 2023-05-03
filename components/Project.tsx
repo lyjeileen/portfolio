@@ -37,17 +37,17 @@ export default function Project(props: ProjectProps) {
       <div className="relative m-4">
         <div className="text-grassgreen text-center text-xl z-50">
           <p>{project.description}</p>
-          <div className="relative aspect-video">
+          {/* <div className="p-4">
+            <h4>Stacks</h4>
+            <div className="grid grid-cols-3 mt-4">{tools}</div>
+          </div> */}
+          <div className="relative aspect-video mt-4">
             <Image
               src={project.image}
               alt={project.name}
               fill
               className="z-0 rounded-xl "
             />
-          </div>
-          <div className="p-4">
-            <h4>Stacks</h4>
-            <div className="grid grid-cols-3 mt-4">{tools}</div>
           </div>
         </div>
       </div>
