@@ -16,7 +16,7 @@ type ProjectProps = {
 export default function Project(props: ProjectProps) {
   const { project } = props;
 
-  const tools = project.tools.map((tool, index) => <p key={index}>{tool}</p>);
+  // const tools = project.tools.map((tool, index) => <p key={index}>{tool}</p>);
   return (
     <div className="my-12 mx-6 border-4 border-softred rounded-2xl">
       <div className="flex justify-center items-center">
