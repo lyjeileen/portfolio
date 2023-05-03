@@ -18,7 +18,7 @@ export default function Project(props: ProjectProps) {
 
   const tools = project.tools.map((tool, index) => <p key={index}>{tool}</p>);
   return (
-    <div className="my-12  border-4 border-softred rounded-2xl">
+    <div className="my-12 mx-6 border-4 border-softred rounded-2xl">
       <p className="text-grassgreen text-2xl text-center font-bold my-4 mb-4">
         {project.name}
       </p>
