@@ -24,7 +24,7 @@ import {
 export default function Skills() {
   return (
     <>
-      <div className="flex justify-center mt-4">
+      <div className="flex justify-center my-16">
         <svg
           className="w-9 h-9 fill-softred"
           xmlns="http://www.w3.org/2000/svg"
@@ -44,15 +44,15 @@ export default function Skills() {
         </svg>
       </div>
 
-      <div className="text-grassgreen flex justify-evenly">
+      <div className="text-grassgreen flex flex-col items-center text-center gap-10">
         <div>
           <h3 className="text-xl mb-2">Languanges</h3>
-          <ul className="flex flex-col">
-            <li>
+          <ul className="flex flex-wrap gap-8">
+            <li className="flex flex-col items-center">
               <DiJavascript1 className="fill-lightgreen w-8 h-8" />
               <p>JavaScript</p>
             </li>
-            <li>
+            <li className="flex flex-col items-center">
               <AiFillHtml5 className="fill-lightgreen w-8 h-8" />
               <p>HTML</p>
             </li>
@@ -67,45 +67,45 @@ export default function Skills() {
           </ul>
         </div>
         <div>
-          <h3 className="text-xl mb-2">Frameworks&Libraries</h3>
-          <ul>
-            <li>
+          <h3 className="text-xl mb-2">Frameworks & Libraries</h3>
+          <ul className="flex flex-wrap gap-8">
+            <li className="flex flex-col items-center">
               <TbBrandNextjs className="fill-lightgreen w-8 h-8" />
               <p>NextJs</p>
             </li>
-            <li>
+            <li className="flex flex-col items-center">
               <FaReact className="fill-lightgreen w-8 h-8" />
               <p>React</p>
             </li>
-            <li>
+            <li className="flex flex-col items-center">
               <FaNodeJs className="fill-lightgreen w-8 h-8" />
               <p>NodeJs</p>
             </li>
-            <li>
+            <li className="flex flex-col items-center">
               <SiTailwindcss className="fill-lightgreen w-8 h-8" />
               <p>Tailwind</p>
             </li>
-            <li>
+            <li className="flex flex-col items-center">
               <FaBootstrap className="fill-lightgreen w-8 h-8" />
               <p>Bootstrap</p>
             </li>
             <li>
               <SiMui className="fill-lightgreen w-8 h-8" />
-              <p>Material UI</p>
+              <p>MUI</p>
             </li>
-            <li>
+            <li className="flex flex-col items-center">
               <DiSass className="fill-lightgreen w-8 h-8" />
               <p>SASS</p>
             </li>
-            <li>
+            <li className="flex flex-col items-center">
               <SiRubyonrails className="fill-lightgreen w-8 h-8" />
               <p>Rails</p>
             </li>
-            <li>
+            <li className="flex flex-col items-center">
               <SiExpress className="fill-lightgreen w-8 h-8" />
               <p>Express</p>
             </li>
-            <li>
+            <li className="flex flex-col items-center">
               <SiJquery className="fill-lightgreen w-8 h-8" />
               <p>Jquery</p>
             </li>
@@ -113,8 +113,8 @@ export default function Skills() {
         </div>
         <div>
           <h3 className="text-xl mb-2">Testing</h3>
-          <ul>
-            <li>
+          <ul className="flex flex-wrap gap-8">
+            <li className="flex flex-col items-center">
               <SiCypress className="fill-lightgreen w-8 h-8" />
               <p>Cypress</p>
             </li>
@@ -122,28 +122,28 @@ export default function Skills() {
               <SiJest className="fill-lightgreen w-8 h-8" />
               <p>Jest</p>
             </li>
-            <li>
+            <li className="flex flex-col items-center">
               <SiStorybook className="fill-lightgreen w-8 h-8" />
               <p>Storybook</p>
             </li>
-            <li>
+            <li className="flex flex-col items-center">
               <SiMocha className="fill-lightgreen w-8 h-8" />
               <p>Mocha</p>
             </li>
-            <li>
+            <li className="flex flex-col items-center">
               <SiChai className="fill-lightgreen w-8 h-8" />
               <p>Chai</p>
             </li>
           </ul>
         </div>
         <div>
-          <h3 className="text-xl mb-2">Database&Others</h3>
-          <ul>
+          <h3 className="text-xl mb-2">Database & Others</h3>
+          <ul className="flex flex-wrap gap-8">
             <li>
               <TbSql className="fill-lightgreen w-8 h-8" />
               <p>SQL</p>
             </li>
-            <li>
+            <li className="flex flex-col items-center">
               <SiPrisma className="fill-lightgreen w-8 h-8" />
               <p>Prisma</p>
             </li>
@@ -151,19 +151,19 @@ export default function Skills() {
               <DiGithubBadge className="fill-lightgreen w-8 h-8" />
               <p>Git</p>
             </li>
-            <li>
+            <li className="flex flex-col items-center">
               <SiTwilio className="fill-lightgreen w-8 h-8" />
               <p>Twilio</p>
             </li>
-            <li>
+            <li className="flex flex-col items-center">
               <SiShopify className="fill-lightgreen w-8 h-8" />
               <p>Shopify</p>
             </li>
-            <li>
+            <li className="flex flex-col items-center">
               <SiStripe className="fill-lightgreen w-8 h-8" />
               <p>Stripe</p>
             </li>
-            <li>
+            <li className="flex flex-col items-center">
               <SiAmazonaws className="fill-lightgreen w-8 h-8" />
               <p>AWS S3</p>
             </li>
