@@ -47,7 +47,7 @@ export default function Skills() {
       <div className="text-grassgreen flex flex-col items-center text-center gap-10">
         <div>
           <h3 className="text-xl mb-2">Languanges</h3>
-          <ul className="flex flex-wrap gap-8">
+          <ul className="flex flex-wrap gap-8 bg-cream p-4 border-0 rounded-lg">
             <li className="flex flex-col items-center">
               <DiJavascript1 className="fill-lightgreen w-8 h-8" />
               <p>JavaScript</p>
@@ -68,7 +68,7 @@ export default function Skills() {
         </div>
         <div>
           <h3 className="text-xl mb-2">Frameworks & Libraries</h3>
-          <ul className="flex flex-wrap gap-8">
+          <ul className="flex flex-wrap gap-8 bg-cream p-4 border-0 rounded-lg">
             <li className="flex flex-col items-center">
               <TbBrandNextjs className="fill-lightgreen w-8 h-8" />
               <p>NextJs</p>
@@ -113,7 +113,7 @@ export default function Skills() {
         </div>
         <div>
           <h3 className="text-xl mb-2">Testing</h3>
-          <ul className="flex flex-wrap gap-8">
+          <ul className="flex flex-wrap gap-8 bg-cream p-4 border-0 rounded-lg">
             <li className="flex flex-col items-center">
               <SiCypress className="fill-lightgreen w-8 h-8" />
               <p>Cypress</p>
@@ -138,7 +138,7 @@ export default function Skills() {
         </div>
         <div>
           <h3 className="text-xl mb-2">Database & Others</h3>
-          <ul className="flex flex-wrap gap-8">
+          <ul className="flex flex-wrap gap-8 bg-cream p-4 border-0 rounded-lg">
             <li>
               <TbSql className="fill-lightgreen w-8 h-8" />
               <p>SQL</p>

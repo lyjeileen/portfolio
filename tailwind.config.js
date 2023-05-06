@@ -11,6 +11,7 @@ module.exports = {
       lightgreen: '#AFBBA2',
       base: '#F8EDE6',
       grassgreen: '#8E9D7D',
+      cream: '#F9F1F0',
     },
     extend: {},
   },
