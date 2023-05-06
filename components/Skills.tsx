@@ -1,25 +1,22 @@
-// const skillList = {
-//   'Languages':{Javascript:, HTML, CSS, Ruby}
-//   'Framworks & Libraries: {React, Tailwind, Bootstrap, MUI, SASS, NextJS, NodeJS, Ajax, Express, EJS, jQuery, Rails},
-//   'Testing': {Storybook, Cypress, Jest, RSpec, Mocha, Chai}
-//   'Database & Others'
-// };
-
-import Image from 'next/image';
-import { AiFillHtml5 } from '@react-icons/all-files/ai/AiFillHtml5';
-import { DiCss3 } from '@react-icons/all-files/di/DiCss3';
-import { SiJavascript } from '@react-icons/all-files/si/SiJavascript';
-import { DiSass } from '@react-icons/all-files/di/DiSass';
-import { FaReact } from '@react-icons/all-files/fa/FaReact';
-import { FaNodeJs } from '@react-icons/all-files/fa/FaNodeJs';
-import { SiTailwindcss } from '@react-icons/all-files/si/SiTailwindcss';
-import { FaBootstrap } from 'react-icons/fa';
-import { DiGithubBadge } from 'react-icons/di';
-import { SiPrisma } from 'react-icons/si';
-import { SiRuby } from 'react-icons/si';
-import { SiRubyonrails } from 'react-icons/si';
-import { TbSql } from 'react-icons/tb';
-import { TbBrandNextjs } from 'react-icons/tb';
+import { AiFillHtml5 } from 'react-icons/ai';
+import { FaBootstrap, FaNodeJs, FaReact } from 'react-icons/fa';
+import { DiGithubBadge, DiSass, DiCss3 } from 'react-icons/di';
+import {
+  SiRuby,
+  SiRubyonrails,
+  SiPrisma,
+  SiTailwindcss,
+  SiJavascript,
+  SiJest,
+  SiCypress,
+  SiStorybook,
+  SiMocha,
+  SiChai,
+  SiMui,
+  SiExpress,
+  SiJquery,
+} from 'react-icons/si';
+import { TbSql, TbBrandNextjs } from 'react-icons/tb';
 
 export default function Skills() {
   return (
@@ -90,12 +87,24 @@ export default function Skills() {
               <p>Bootstrap</p>
             </li>
             <li>
+              <SiMui className="fill-lightgreen w-8 h-8" />
+              <p>Material UI</p>
+            </li>
+            <li>
               <DiSass className="fill-lightgreen w-8 h-8" />
               <p>SASS</p>
             </li>
             <li>
               <SiRubyonrails className="fill-lightgreen w-8 h-8" />
               <p>Rails</p>
+            </li>
+            <li>
+              <SiExpress className="fill-lightgreen w-8 h-8" />
+              <p>Express</p>
+            </li>
+            <li>
+              <SiJquery className="fill-lightgreen w-8 h-8" />
+              <p>Jquery</p>
             </li>
           </ul>
         </div>
@@ -103,32 +112,24 @@ export default function Skills() {
           <h3 className="text-xl mb-2">Testing</h3>
           <ul>
             <li>
-              <TbBrandNextjs className="fill-lightgreen w-8 h-8" />
-              <p>NextJs</p>
+              <SiCypress className="fill-lightgreen w-8 h-8" />
+              <p>Cypress</p>
             </li>
             <li>
-              <FaReact className="fill-lightgreen w-8 h-8" />
-              <p>React</p>
+              <SiJest className="fill-lightgreen w-8 h-8" />
+              <p>Jest</p>
             </li>
             <li>
-              <FaNodeJs className="fill-lightgreen w-8 h-8" />
-              <p>NodeJs</p>
+              <SiStorybook className="fill-lightgreen w-8 h-8" />
+              <p>Storybook</p>
             </li>
             <li>
-              <SiTailwindcss className="fill-lightgreen w-8 h-8" />
-              <p>Tailwind</p>
+              <SiMocha className="fill-lightgreen w-8 h-8" />
+              <p>Mocha</p>
             </li>
             <li>
-              <FaBootstrap className="fill-lightgreen w-8 h-8" />
-              <p>Bootstrap</p>
-            </li>
-            <li>
-              <DiSass className="fill-lightgreen w-8 h-8" />
-              <p>SASS</p>
-            </li>
-            <li>
-              <SiRubyonrails className="fill-lightgreen w-8 h-8" />
-              <p>Rails</p>
+              <SiChai className="fill-lightgreen w-8 h-8" />
+              <p>Chai</p>
             </li>
           </ul>
         </div>
