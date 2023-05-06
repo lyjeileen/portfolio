@@ -3,14 +3,14 @@ import Link from 'next/link';
 export default function Contact() {
   return (
     <>
-      <h1 className="text-grassgreen text-4xl text-center font-bold">
+      <h1 className="text-grassgreen text-4xl text-center font-bold mt-16">
         Contact
       </h1>
 
-      <div className="flex justify-center mt-4">
+      <div className="flex justify-center mt-4 gap-10">
         <Link href="https://github.com/lyjeileen">
           <svg
-            className="w-10 h-10 fill-grassgreen mr-8"
+            className="w-10 h-10 fill-grassgreen hover:fill-softred"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
           >
@@ -20,7 +20,7 @@ export default function Contact() {
 
         <Link href="https://www.linkedin.com/in/yuejiao-eileen-li/">
           <svg
-            className="w-10 h-10 fill-grassgreen mr-8"
+            className="w-10 h-10 fill-grassgreen hover:fill-softred"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
           >
@@ -30,7 +30,7 @@ export default function Contact() {
 
         <Link href="mailto:yuejiao.li.eileen@gmail.com">
           <svg
-            className="w-10 h-10 fill-grassgreen"
+            className="w-10 h-10 fill-grassgreen hover:fill-softred"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
           >
