@@ -1,12 +1,12 @@
 import { AiFillHtml5 } from 'react-icons/ai';
 import { FaBootstrap, FaNodeJs, FaReact } from 'react-icons/fa';
-import { DiGithubBadge, DiSass, DiCss3 } from 'react-icons/di';
+import { DiGithubBadge, DiSass, DiCss3, DiJavascript1 } from 'react-icons/di';
+import { TbSql, TbBrandNextjs } from 'react-icons/tb';
 import {
   SiRuby,
   SiRubyonrails,
   SiPrisma,
   SiTailwindcss,
-  SiJavascript,
   SiJest,
   SiCypress,
   SiStorybook,
@@ -15,8 +15,11 @@ import {
   SiMui,
   SiExpress,
   SiJquery,
+  SiTwilio,
+  SiShopify,
+  SiStripe,
+  SiAmazonaws,
 } from 'react-icons/si';
-import { TbSql, TbBrandNextjs } from 'react-icons/tb';
 
 export default function Skills() {
   return (
@@ -46,7 +49,7 @@ export default function Skills() {
           <h3 className="text-xl mb-2">Languanges</h3>
           <ul className="flex flex-col">
             <li>
-              <SiJavascript className="fill-lightgreen w-8 h-8" />
+              <DiJavascript1 className="fill-lightgreen w-8 h-8" />
               <p>JavaScript</p>
             </li>
             <li>
@@ -147,6 +150,22 @@ export default function Skills() {
             <li>
               <DiGithubBadge className="fill-lightgreen w-8 h-8" />
               <p>Git</p>
+            </li>
+            <li>
+              <SiTwilio className="fill-lightgreen w-8 h-8" />
+              <p>Twilio</p>
+            </li>
+            <li>
+              <SiShopify className="fill-lightgreen w-8 h-8" />
+              <p>Shopify</p>
+            </li>
+            <li>
+              <SiStripe className="fill-lightgreen w-8 h-8" />
+              <p>Stripe</p>
+            </li>
+            <li>
+              <SiAmazonaws className="fill-lightgreen w-8 h-8" />
+              <p>AWS S3</p>
             </li>
           </ul>
         </div>
