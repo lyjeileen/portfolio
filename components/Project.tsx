@@ -25,7 +25,7 @@ export default function Project(props: ProjectProps) {
         </h2>
         <Link href={project.github}>
           <svg
-            className="w-8 h-8 fill-grassgreen ml-2"
+            className="w-8 h-8 fill-grassgreen ml-2 hover:fill-softred"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
           >

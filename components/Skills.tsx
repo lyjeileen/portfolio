@@ -70,7 +70,7 @@ export default function Skills() {
           <h3 className="text-xl mb-2">Frameworks & Libraries</h3>
           <ul className="flex flex-wrap gap-8 bg-cream p-4 border-0 rounded-lg">
             <li className="flex flex-col items-center">
-              <TbBrandNextjs className="fill-lightgreen w-8 h-8" />
+              <TbBrandNextjs className="fill-lightgreen w-8 h-8 opacity-60" />
               <p>NextJs</p>
             </li>
             <li className="flex flex-col items-center">
@@ -140,7 +140,7 @@ export default function Skills() {
           <h3 className="text-xl mb-2">Database & Others</h3>
           <ul className="flex flex-wrap gap-8 bg-cream p-4 border-0 rounded-lg">
             <li>
-              <TbSql className="fill-lightgreen w-8 h-8" />
+              <TbSql className="fill-lightgreen w-8 h-8 opacity-80" />
               <p>SQL</p>
             </li>
             <li className="flex flex-col items-center">
