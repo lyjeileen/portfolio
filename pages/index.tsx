@@ -6,23 +6,36 @@ import Skills from '@/components/Skills';
 export default function Home() {
   return (
     <>
-      <div className="justify-center">
-        <div className="flex justify-center">
+      <div className="flex flex-col text-center">
+        <div className="flex justify-center md:m-20">
           <Image src="/flower.svg" alt="flower" width={40} height={40} />
           <h1 className="text-grassgreen text-3xl font-bold mx-4 text-center md:text-5xl lg:text-6xl ">
             Hi, I&apos;m Eileen Li.
           </h1>
           <Image src="/flower.svg" alt="flower" width={40} height={40} />
         </div>
-        <p className="text-softred mt-4 text-2xl">
-          Welcome to my portfolio website! I&apos;m excited to showcase my
-          projects and skills to potential employers. Take a look around and
-          feel free to contact me with any questions or opportunities.
-        </p>
-
-        <Projects />
-        <Skills />
-        {/* <h1 className="text-grassgreen text-4xl text-center font-bold mx-4">
+        <div className="text-softred mt-4 ">
+          <p className="text-center text-md md:text-xl p-2 min-[1300px]:hidden">
+            Welcome to my portfolio website! I&apos;m excited to showcase my
+            projects and skills to potential employers. Take a look around and
+            feel free to contact me with any questions or opportunities.
+          </p>
+          <div className="text-center text-2xl text-md hidden min-[1300px]:block">
+            <p>Welcome to my portfolio website!</p>
+            <p>
+              I&apos;m excited to showcase my projects and skills to potential
+              employers.
+            </p>
+            <p>
+              Take a look around and feel free to contact me with any questions
+              or opportunities.
+            </p>
+          </div>
+        </div>
+      </div>
+      <Projects />
+      <Skills />
+      {/* <h1 className="text-grassgreen text-4xl text-center font-bold mx-4">
           About Me
         </h1>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -31,8 +44,7 @@ export default function Home() {
         <h1 className="text-grassgreen text-4xl text-center font-bold mx-4">
           Education
         </h1> */}
-        <Contact />
-      </div>
+      <Contact />
     </>
   );
 }
