@@ -5,16 +5,16 @@ import Skills from '@/components/Skills';
 
 export default function Home() {
   return (
-    <>
-      <div className="flex flex-col text-center">
-        <div className="flex justify-center md:m-20">
+    <div className="pt-20">
+      <div className="flex flex-col text-center md:m-10">
+        <div className="flex justify-center">
           <Image src="/flower.svg" alt="flower" width={40} height={40} />
           <h1 className="text-grassgreen text-3xl font-bold mx-4 text-center md:text-5xl lg:text-6xl ">
             Hi, I&apos;m Eileen Li.
           </h1>
           <Image src="/flower.svg" alt="flower" width={40} height={40} />
         </div>
-        <div className="text-softred mt-4 ">
+        <div className="text-softred my-8">
           <p className="text-center text-md md:text-xl p-2 min-[1300px]:hidden">
             Welcome to my portfolio website! I&apos;m excited to showcase my
             projects and skills to potential employers. Take a look around and
@@ -45,6 +45,6 @@ export default function Home() {
           Education
         </h1> */}
       <Contact />
-    </>
+    </div>
   );
 }
