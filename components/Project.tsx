@@ -46,7 +46,7 @@ export default function Project(props: ProjectProps) {
               src={project.image}
               alt={project.name}
               fill
-              className="z-0 rounded-xl "
+              className="rounded-xl"
             />
           </div>
         </div>
