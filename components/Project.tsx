@@ -16,7 +16,11 @@ type ProjectProps = {
 export default function Project(props: ProjectProps) {
   const { project } = props;
 
-  // const tools = project.tools.map((tool, index) => <p key={index}>{tool}</p>);
+  const tools = project.tools.map((tool, index) => (
+    <p key={index} className="bg-grassgreen text-base rounded-lg px-2 m-1">
+      {tool}
+    </p>
+  ));
   return (
     <div className="my-4 border-4 border-softred rounded-2xl md:m-6">
       <div className="flex justify-center items-center">
@@ -35,13 +39,12 @@ export default function Project(props: ProjectProps) {
       </div>
 
       <div className="relative m-4">
-        <div className="text-grassgreen text-xl text-center">
+        <div className="text-grassgreen text-xl text-left">
           <p>{project.description}</p>
-          {/* <div className="p-4">
-            <h4>Stacks</h4>
-            <div className="grid grid-cols-3 mt-4">{tools}</div>
-          </div> */}
-          <div className="relative aspect-video mt-4">
+          <div className="py-4">
+            <div className="flex flex-wrap">{tools}</div>
+          </div>
+          <div className="relative aspect-video">
             <Image
               src={project.image}
               alt={project.name}
