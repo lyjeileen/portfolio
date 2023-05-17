@@ -24,12 +24,12 @@ export default function Project(props: ProjectProps) {
   return (
     <div className="my-4 border-4 border-softred rounded-2xl md:m-6">
       <div className="flex justify-center items-center">
-        <h2 className="text-grassgreen text-2xl font-bold my-4 mb-4">
+        <h2 className="text-grassgreen text-xl font-bold my-4 mb-2 md:mb-4 md:text-2xl">
           {project.name}
         </h2>
         <Link href={project.github}>
           <svg
-            className="w-8 h-8 fill-grassgreen ml-2 hover:fill-softred"
+            className="w-7 h-7 fill-grassgreen ml-2 hover:fill-softred"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
           >
@@ -38,9 +38,9 @@ export default function Project(props: ProjectProps) {
         </Link>
       </div>
 
-      <div className="relative m-4">
-        <div className="text-grassgreen text-xl text-left">
-          <p>{project.description}</p>
+      <div className="relative mx-4 mb-4">
+        <div className="text-grassgreen text-lg md:text-xl text-left">
+          <p className="ml-2">{project.description}</p>
           <div className="py-4">
             <div className="flex flex-wrap">{tools}</div>
           </div>
