@@ -11,7 +11,7 @@ export default function Intro() {
         <Image src="/flower.svg" alt="flower" width={40} height={40} />
       </div>
       <div className="text-softred my-8">
-        <p className="text-center text-md md:text-xl p-2 min-[1300px]:hidden">
+        <p className="text-left text-md text-lg md:text-xl p-2 min-[1300px]:hidden">
           Welcome to my portfolio website! I&apos;m excited to showcase my
           projects and skills to potential employers. Take a look around and
           feel free to contact me with any questions or opportunities.
