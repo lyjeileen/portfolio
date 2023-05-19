@@ -24,7 +24,7 @@ import {
 export default function Skills() {
   return (
     <>
-      <div className="flex justify-center my-8 md:my-16">
+      <div className="flex justify-center my-8 md:my-16" id="skills">
         <svg
           className="w-7 h-7 fill-softred md:w-9 md:h-9"
           xmlns="http://www.w3.org/2000/svg"
