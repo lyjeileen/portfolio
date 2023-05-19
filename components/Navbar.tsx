@@ -14,6 +14,7 @@ export default function Navbar() {
         </div>
         <div className="flex gap-4">
           <button
+            className="hover:bg-base rounded-3xl hover:text-grassgreen px-1"
             onClick={() =>
               window.document
                 .getElementById('projects')
@@ -23,6 +24,7 @@ export default function Navbar() {
             Projects
           </button>
           <button
+            className="hover:bg-base rounded-3xl hover:text-grassgreen px-1"
             onClick={() =>
               window.document
                 .getElementById('skills')
