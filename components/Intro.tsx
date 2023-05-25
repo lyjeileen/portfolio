@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Intro() {
   return (
-    <div className="flex flex-col text-center md:m-10">
+    <div className="flex flex-col text-center md:mx-10 md:my-20">
       <div className="flex justify-center">
         <Image src="/flower.svg" alt="flower" width={40} height={40} />
         <h1 className="text-grassgreen text-3xl font-bold mx-4 text-center md:text-5xl lg:text-6xl ">
@@ -10,7 +10,7 @@ export default function Intro() {
         </h1>
         <Image src="/flower.svg" alt="flower" width={40} height={40} />
       </div>
-      <div className="text-softred my-8">
+      <div className="text-softred my-10">
         <p className="text-left text-md text-lg md:text-xl p-2 min-[1300px]:hidden">
           Welcome to my portfolio website! I&apos;m excited to showcase my
           projects and skills to potential employers. Take a look around and

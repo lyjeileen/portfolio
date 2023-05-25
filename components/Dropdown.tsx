@@ -21,7 +21,7 @@ export default function Dropdown() {
             ></path>
           </svg>
         </Menu.Button>
-        <Menu.Items className="flex flex-col absolute right-4 top-10 mt-6 z-10 w-40 text-grassgreen divide-y border-2 rounded-md bg-cream md:hidden">
+        <Menu.Items className="flex flex-col absolute right-4 top-10 mt-6 z-10 w-40 text-grassgreen divide-y border-2 rounded-md outline-none bg-cream md:hidden">
           <Menu.Item>
             <button
               className="text-left hover:bg-base hover:text-grassgreen px-2 py-1"
