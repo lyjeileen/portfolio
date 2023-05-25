@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 import { BsHouseHeart } from 'react-icons/bs';
+import Dropdown from './Dropdown';
 
 export default function Navbar() {
   return (
@@ -12,32 +13,35 @@ export default function Navbar() {
             Eileen Li
           </span>
         </div>
-        <div className="flex gap-4">
-          <button
-            className="hover:bg-base rounded-3xl hover:text-grassgreen px-1"
-            onClick={() =>
-              window.document
-                .getElementById('projects')
-                ?.scrollIntoView({ block: 'end', behavior: 'smooth' })
-            }
-          >
-            Projects
-          </button>
-          <button
-            className="hover:bg-base rounded-3xl hover:text-grassgreen px-1"
-            onClick={() =>
-              window.document
-                .getElementById('skills')
-                ?.scrollIntoView({ behavior: 'smooth' })
-            }
-          >
-            Skills
-          </button>
-          <Link href="mailto:yuejiao.li.eileen@gmail.com">
-            <p className="border-2 px-2 rounded-3xl text-lg text-base hover:text-lightgreen hover:bg-base">
-              Contact
-            </p>
-          </Link>
+        <Dropdown />
+        <div className="hidden md:block">
+          <div className="flex gap-4">
+            <button
+              className="hover:bg-base rounded-3xl hover:text-grassgreen px-1"
+              onClick={() =>
+                window.document
+                  .getElementById('projects')
+                  ?.scrollIntoView({ block: 'end', behavior: 'smooth' })
+              }
+            >
+              Projects
+            </button>
+            <button
+              className="hover:bg-base rounded-3xl hover:text-grassgreen px-1"
+              onClick={() =>
+                window.document
+                  .getElementById('skills')
+                  ?.scrollIntoView({ behavior: 'smooth' })
+              }
+            >
+              Skills
+            </button>
+            <Link href="mailto:yuejiao.li.eileen@gmail.com">
+              <p className="border-2 px-2 rounded-3xl text-lg text-base hover:text-lightgreen hover:bg-base">
+                Contact
+              </p>
+            </Link>
+          </div>
         </div>
       </div>
     </nav>
