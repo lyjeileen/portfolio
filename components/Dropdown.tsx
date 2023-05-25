@@ -28,7 +28,7 @@ export default function Dropdown() {
               onClick={() =>
                 window.document
                   .getElementById('projects')
-                  ?.scrollIntoView({ block: 'end', behavior: 'smooth' })
+                  ?.scrollIntoView({ block: 'center', behavior: 'smooth' })
               }
             >
               Projects
@@ -41,7 +41,7 @@ export default function Dropdown() {
               onClick={() =>
                 window.document
                   .getElementById('skills')
-                  ?.scrollIntoView({ behavior: 'smooth' })
+                  ?.scrollIntoView({ block: 'center', behavior: 'smooth' })
               }
             >
               Skills
