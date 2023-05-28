@@ -2,6 +2,7 @@ import Projects from 'components/Projects';
 import Contact from 'components/Contact';
 import Skills from '@/components/Skills';
 import Intro from '@/components/Intro';
+import AboutMe from '@/components/About Me';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Intro />
       <Projects />
       <Skills />
+      <AboutMe />
       {/* <h1 className="text-grassgreen text-4xl text-center font-bold mx-4">
           About Me
         </h1>
