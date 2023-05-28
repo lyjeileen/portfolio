@@ -21,7 +21,7 @@ export default function Navbar() {
               onClick={() =>
                 window.document
                   .getElementById('projects')
-                  ?.scrollIntoView({ block: 'end', behavior: 'smooth' })
+                  ?.scrollIntoView({ block: 'center', behavior: 'smooth' })
               }
             >
               Projects
@@ -31,10 +31,20 @@ export default function Navbar() {
               onClick={() =>
                 window.document
                   .getElementById('skills')
-                  ?.scrollIntoView({ behavior: 'smooth' })
+                  ?.scrollIntoView({ block: 'center', behavior: 'smooth' })
               }
             >
               Skills
+            </button>
+            <button
+              className="hover:bg-base rounded-3xl hover:text-grassgreen px-1"
+              onClick={() =>
+                window.document
+                  .getElementById('about')
+                  ?.scrollIntoView({ block: 'center', behavior: 'smooth' })
+              }
+            >
+              About
             </button>
             <Link href="mailto:yuejiao.li.eileen@gmail.com">
               <p className="border-2 px-2 rounded-3xl text-lg text-base hover:text-lightgreen hover:bg-base">

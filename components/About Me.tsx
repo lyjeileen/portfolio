@@ -9,7 +9,7 @@ export default function AboutMe() {
         </h1>
         <AiTwotoneStar className="w-7 h-7 fill-softred md:w-9 md:h-9" />
       </div>
-      <p className="text-left text-xl text-md text-grassgreen p-10">
+      <p className="text-left text-md md:text-xl text-md text-grassgreen p-10">
         I am originally from China and have been living in Canada for the past 7
         years. While I initially pursued a career in the natural health product
         industry as a QA, I soon realized that my true passion lies in creating

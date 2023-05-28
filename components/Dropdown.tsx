@@ -49,6 +49,19 @@ export default function Dropdown() {
           </Menu.Item>
 
           <Menu.Item>
+            <button
+              className="text-left hover:bg-base hover:text-grassgreen px-2 py-1"
+              onClick={() =>
+                window.document
+                  .getElementById('about')
+                  ?.scrollIntoView({ block: 'center', behavior: 'smooth' })
+              }
+            >
+              About
+            </button>
+          </Menu.Item>
+
+          <Menu.Item>
             <Link href="mailto:yuejiao.li.eileen@gmail.com">
               <p className="text-left hover:bg-base hover:text-grassgreen px-2 py-1">
                 Contact
